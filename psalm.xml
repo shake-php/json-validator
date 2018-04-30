@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<psalm name="Shake-PHP/JsonValidator Static Analysis Tests."
+       stopOnFirstError="false"
+       useDocblockTypes="true"
+       totallyTyped="true">
+    <projectFiles>
+        <directory name="./src" />
+    </projectFiles>
+</psalm>
