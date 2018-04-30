@@ -1,5 +1,5 @@
 {
-    "name": "shake-php/autoloading",
+    "name": "shake-php/json-validator",
     "description": "Validate shake json files.",
     "keywords": [
         "php72",
