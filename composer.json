@@ -1,0 +1,40 @@
+{
+    "name": "shake-php/autoloading",
+    "description": "Validate shake json files.",
+    "keywords": [
+        "php72",
+        "shake-php",
+        "shake-json-validator",
+        "composer-alternative",
+        "secure-by-default",
+        "elegant-coding",
+        "easy-to-use"
+    ],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nicholas English",
+            "email": "nenglish6657@gmail.com",
+            "homepage": "https://github.com/inisik",
+            "role": "Develop"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "./controller.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "vimeo/psalm": "^1"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
